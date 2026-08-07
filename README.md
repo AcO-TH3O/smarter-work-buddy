@@ -1,274 +1,91 @@
-# AI Productivity Hub
+# AI Workplace Productivity Assistant
 
-AI Workplace Productivity Assistant
+## Project Overview
 
-Theme
+The **AI Workplace Productivity Assistant** is a modern, responsive web application designed to help professionals improve workplace productivity through AI-powered tools. The application enables users to generate professional emails, summarize meeting notes, and create organized task schedules from a clean and intuitive dashboard. The design follows a professional SaaS-style interface with a navy blue and royal blue color scheme.
 
-Primary Color: Navy Blue (#0A1F44)
+---
 
-Secondary Color: Royal Blue (#4169E1)
+## Features Implemented
 
-Accent Color: White
+### Smart Email Generator
+- Generate professional emails using AI.
+- Supports multiple tones:
+  - Formal
+  - Friendly
+  - Persuasive
+- Editable AI-generated content.
 
-Background: Light Grey (#F5F7FA)
+### Meeting Notes Summarizer
+- Summarizes lengthy meeting notes.
+- Extracts:
+  - Action items
+  - Key decisions
+  - Deadlines
+- Allows users to edit summaries before use.
 
-Style: Clean, modern SaaS dashboard with rounded cards, subtle shadows, and simple icons.
+### AI Task Planner
+- Generate daily or weekly schedules.
+- Prioritize tasks by importance and urgency.
+- Editable task plans.
 
-Dashboard
+### Dashboard
+- Modern dashboard interface.
+- Sidebar navigation.
+- Responsive design for desktop, tablet, and mobile devices.
 
-Welcome Section
+### Responsible AI
+- Displays a disclaimer reminding users to review AI-generated content before using it professionally.
 
-Welcome back!
+---
 
-Boost your workplace productivity with AI-powered tools that help you write emails, summarize meetings, and organize your daily tasks.
+## Technologies and Tools Used
 
-Quick Statistics
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
 
- Emails Generated
+### Design
+- Responsive Web Design
+- Navy Blue and Royal Blue theme
+- SaaS-inspired dashboard layout
 
- Meeting Summaries Created
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+- Google Chrome (for testing)
 
- Tasks Planned
+---
 
- Productivity Score
+## Setup Instructions
 
-Sidebar Navigation
+1. Clone or download the project repository.
+2. Open the project folder in **Visual Studio Code**.
+3. Open the `index.html` file in your preferred web browser.
+4. Explore the dashboard using the sidebar navigation.
+5. Use the AI productivity tools to generate emails, summarize meeting notes, and plan tasks.
 
- Dashboard
+---
 
- Smart Email Generator
+## Future Enhancements
 
- Meeting Notes Summarizer
+- AI API integration for live AI responses.
+- User authentication and account management.
+- Save and view history of generated content.
+- Export results as PDF or Word documents.
+- Dark mode support.
+- Multi-language support.
 
- AI Task Planner
+---
 
- History
+## Responsible AI Disclaimer
 
- Settings
+This application uses Artificial Intelligence to assist with workplace productivity tasks. AI-generated content may not always be accurate or complete. Users should review and verify all generated outputs before using them in professional or business environments.
 
- Help
+---
 
-1. Smart Email Generator
+## Author
 
-Description
-
-Create professional emails in seconds using AI.
-
-Features
-
- Enter the purpose of the email.
-
- Select the recipient.
-
- Choose the desired tone.
-
- Generate a polished email.
-
- Edit the generated content before sending or copying.
-
-Tone Options
-
- Formal
-
- Friendly
-
- Persuasive
-
-Example Input
-
-Request annual leave for next Friday.
-
-Example Output
-
-A professionally written email based on the selected tone.
-
-2. Meeting Notes Summarizer
-
-Description
-
-Convert long meeting notes into short, easy-to-read summaries.
-
-Features
-
- Paste meeting notes.
-
- Generate a concise summary.
-
- Identify important decisions.
-
- Extract action items.
-
- Highlight important deadlines.
-
- Edit the summary if needed.
-
-Output Sections
-
-Summary
-
-A brief overview of the meeting.
-
-Action Items
-
- Complete project proposal
-
- Contact supplier
-
- Update documentation
-
-Key Decisions
-
- Budget approved
-
- Launch date confirmed
-
-Deadlines
-
- Proposal due Monday
-
- Testing completed by Friday
-
-3. AI Task Planner
-
-Description
-
-Organize your day or week using AI.
-
-Features
-
- Add your tasks.
-
- Choose Daily or Weekly planning.
-
- Prioritize important work.
-
- Generate a balanced schedule.
-
- Edit tasks before saving.
-
-Priority Levels
-
- High
-
- Medium
-
- Low
-
-Example Schedule
-
-Morning
-
- Respond to emails
-
- Team meeting
-
-Afternoon
-
- Finish presentation
-
- Client follow-up
-
-Evening
-
- Review tomorrow's tasks
-
-AI Prompt Structure
-
-Each tool should guide the AI with a clear prompt.
-
-Email Generator Prompt
-
-Generate a professional email using the selected tone and workplace context.
-
-Meeting Summarizer Prompt
-
-Summarize the meeting into key points, action items, decisions, and deadlines.
-
-Task Planner Prompt
-
-Create an organized daily or weekly schedule by prioritizing tasks based on urgency and importance.
-
-Editable AI Output
-
-Every generated result should include options to:
-
- Edit
-
- Copy
-
- Clear
-
- Regenerate
-
-Responsible AI Disclaimer
-
-Responsible AI Notice
-
-This application uses artificial intelligence to assist with workplace productivity. AI-generated content may contain inaccuracies or require adjustments. Always review and verify outputs before sharing or making business decisions.
-
-Settings
-
-Users can:
-
- Select default email tone
-
- Choose Daily or Weekly planner
-
- Enable Dark Mode
-
- Manage saved history
-
-Help & Support
-
-Need assistance?
-
- Frequently Asked Questions
-
- User Guide
-
- Contact Support
-
-Footer
-
-AI Workplace Productivity Assistant
-
-Empowering professionals through responsible AI solutions.
-
-© 2026 All Rights Reserved.
-
-Overall Look and Feel
-
- Navy blue header and sidebar
-
- Royal blue buttons and highlights
-
- White cards with rounded corners
-
- Modern icons
-
- Plenty of spacing for a clean, professional SaaS appearance
-
- Responsive layout that works well on desktop, tablet, and mobile devices
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://smarter-work-buddy.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6fef16a2-fd92-460a-9d3e-56a4d7dfc87a).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Developed as part of an academic web application project demonstrating modern web design, responsive development, and AI-assisted workplace productivity tools.
